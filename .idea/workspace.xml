@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a58f257-863e-45b8-9b1d-47eb14036331" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/more_control_flow_tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions/__init__.py" afterDir="false" />
+    <list default="true" id="6a58f257-863e-45b8-9b1d-47eb14036331" name="Changes" comment="quick sort">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;itorly&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/itorly/python-demo.git&quot;,
+    &quot;accountId&quot;: &quot;9ce706bb-7810-4361-b634-691945d13e92&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2tO9a6nwemCv75hgO2L5zS1Ttrh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,28 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.DefaultArgumentValues.executor": "Run",
-    "Python.KeywordArguments.executor": "Run",
-    "Python.SpecialParameters.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.DefaultArgumentValues.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FiboTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.FiboTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KeywordArguments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ListComprehensions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SpecialParameters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quick_sort.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\CE\PyStudy\pythonDemo\my_test\modules" />
+      <recent name="F:\CE\PyStudy\pythonDemo\my_test" />
+      <recent name="F:\CE\PyStudy\pythonDemo\data_structures" />
       <recent name="F:\CE\PyStudy\pythonDemo\more_control_flow_tools\more_on_defining_functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SpecialParameters">
-    <configuration name="DefaultArgumentValues" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.quick_sort">
+    <configuration name="FiboTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonDemo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,12 +86,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions/default_argument_values" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\CE\PyStudy\pythonDemo\more_control_flow_tools\more_on_defining_functions\DefaultArgumentValues.py" />
+      <option name="SCRIPT_NAME" value="F:\CE\PyStudy\pythonDemo\my_test\modules\FiboTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="KeywordArguments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FiboTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonDemo" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,12 +109,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions/KeywordArguments.py" />
+      <option name="SCRIPT_NAME" value="F:\CE\PyStudy\pythonDemo\my_test\modules\FiboTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ListComprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/more_on_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structures/more_on_lists/ListComprehensions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,11 +169,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="chat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/chat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/sort/quick_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quick_sort" />
+        <item itemvalue="Python.chat" />
         <item itemvalue="Python.SpecialParameters" />
-        <item itemvalue="Python.KeywordArguments" />
-        <item itemvalue="Python.DefaultArgumentValues" />
+        <item itemvalue="Python.ListComprehensions" />
+        <item itemvalue="Python.FiboTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,8 +241,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740212314915</updated>
-      <workItem from="1740212317020" duration="5863000" />
+      <workItem from="1740212317020" duration="7613000" />
+      <workItem from="1740385071414" duration="5887000" />
+      <workItem from="1740399003211" duration="1811000" />
+      <workItem from="1740412638560" duration="1321000" />
+      <workItem from="1740457421325" duration="4043000" />
+      <workItem from="1740461518800" duration="799000" />
+      <workItem from="1740462325733" duration="1220000" />
+      <workItem from="1740463568508" duration="717000" />
+      <workItem from="1740464304451" duration="548000" />
+      <workItem from="1740464860810" duration="358000" />
+      <workItem from="1740465230041" duration="382000" />
+      <workItem from="1740465624079" duration="2229000" />
+      <workItem from="1740467865151" duration="237000" />
+      <workItem from="1740468110228" duration="1919000" />
+      <workItem from="1740470317912" duration="1781000" />
+      <workItem from="1740472113690" duration="3251000" />
+      <workItem from="1740495950365" duration="2977000" />
     </task>
+    <task id="LOCAL-00001" summary="The initialization files">
+      <option name="closed" value="true" />
+      <created>1740218394962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740218394962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Default Argument Values, Keyword Arguments, Special Parameters">
+      <option name="closed" value="true" />
+      <created>1740218521641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740218521641</updated>
+    </task>
+    <task id="LOCAL-00003" summary="List Comprehensions">
+      <option name="closed" value="true" />
+      <created>1740412719258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740412719258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test from module import Fibo">
+      <option name="closed" value="true" />
+      <created>1740496264384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740496264384</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test from module import Fibo">
+      <option name="closed" value="true" />
+      <created>1740496581346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740496581346</updated>
+    </task>
+    <task id="LOCAL-00006" summary="quick sort">
+      <option name="closed" value="true" />
+      <created>1740496612179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740496612179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,9 +324,23 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The initialization files" />
+    <MESSAGE value="Default Argument Values, Keyword Arguments, Special Parameters" />
+    <MESSAGE value="module test import Fibo" />
+    <MESSAGE value="List Comprehensions" />
+    <MESSAGE value="test from module import Fibo" />
+    <MESSAGE value="quick sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick sort" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonDemo$KeywordArguments.coverage" NAME="KeywordArguments Coverage Results" MODIFIED="1740212951070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions" />
+    <SUITE FILE_PATH="coverage/pythonDemo$ListComprehensions.coverage" NAME="ListComprehensions Coverage Results" MODIFIED="1740412692959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/more_on_lists" />
+    <SUITE FILE_PATH="coverage/pythonDemo$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1740470463049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/sort" />
     <SUITE FILE_PATH="coverage/pythonDemo$SpecialParameters.coverage" NAME="SpecialParameters Coverage Results" MODIFIED="1740217823074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions" />
     <SUITE FILE_PATH="coverage/pythonDemo$DefaultArgumentValues.coverage" NAME="DefaultArgumentValues Coverage Results" MODIFIED="1740212757761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/more_control_flow_tools/more_on_defining_functions/default_argument_values" />
+    <SUITE FILE_PATH="coverage/pythonDemo$FiboTest.coverage" NAME="FiboTest Coverage Results" MODIFIED="1740464411250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/pythonDemo$FiboTest__1_.coverage" NAME="FiboTest (1) Coverage Results" MODIFIED="1740464559737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test/modules" />
+    <SUITE FILE_PATH="coverage/pythonDemo$chat.coverage" NAME="chat Coverage Results" MODIFIED="1740467694820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
   </component>
 </project>
