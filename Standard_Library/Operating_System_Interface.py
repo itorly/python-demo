@@ -9,3 +9,9 @@ dir = dir(os)
 print(dir)
 
 help(os)
+
+# shutil module: file and directory management
+import shutil
+shutil.copyfile('data.db', 'archive.db')
+
+shutil.move('/build/executables', 'installdir')
