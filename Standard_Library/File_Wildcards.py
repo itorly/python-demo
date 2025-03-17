@@ -25,3 +25,17 @@ parser.add_argument('filenames', nargs='+')
 parser.add_argument('-l', '--lines', type=int, default=10)
 args = parser.parse_args()
 print(args)
+
+
+# 10.5. String Pattern Matching
+import re
+
+findall = re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest')
+print(findall)
+
+sub = re.sub(r'(\b[a-z]+) \1', r'\1', 'cat in the the hat')
+print(sub)
+
+replace = 'tea for too'.replace('too', 'two')
+print(replace)
+
