@@ -39,3 +39,36 @@ print(sub)
 replace = 'tea for too'.replace('too', 'two')
 print(replace)
 
+
+# 10.6. Mathematics
+import math
+
+cos = math.cos(math.pi / 4)
+print(cos)
+
+log = math.log(1024, 2)
+print(log)
+
+import random
+
+choice = random.choice(['apple', 'pear', 'banana'])
+print(choice)
+
+sample = random.sample(range(100), 10)      # sampling without replacement
+print(sample)
+
+random = random.random()    # random float
+print(random)
+
+randrange = random.randrange(6)     # random integer chosen from range(6)
+
+import statistics
+data = [2.75, 1.75, 1.25, 0.25, 0.5, 1.25, 3.5]
+mean = statistics.mean(data)
+print(mean)
+
+median = statistics.median(data)
+print(median)
+
+variance = statistics.variance(data)
+print(variance)
