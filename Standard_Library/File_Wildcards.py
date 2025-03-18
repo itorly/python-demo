@@ -110,18 +110,30 @@
 # print(days)
 
 
-# 10.9. Data Compression
-import zlib
-s = b'witch which has which witches wrist watch'
-len_s = len(s)
-print(len_s)
+# # 10.9. Data Compression
+# import zlib
+# s = b'witch which has which witches wrist watch'
+# len_s = len(s)
+# print(len_s)
+#
+# t = zlib.compress(s)
+# len_t = len(t)
+# print(len_t)
+#
+# decompress= zlib.decompress(t)
+# print(decompress)
+#
+# crc32 = zlib.crc32(s)
+# print(crc32)
 
-t = zlib.compress(s)
-len_t = len(t)
-print(len_t)
 
-decompress= zlib.decompress(t)
-print(decompress)
+# 10.10. Performance Measurement
+from timeit import Timer
 
-crc32 = zlib.crc32(s)
-print(crc32)
+b__timeit = Timer('t=a; a=b; b=t', 'a=1; b=2').timeit()
+print(b__timeit)
+
+a_b__timeit = Timer('a,b = b,a', 'a=1; b=2').timeit()
+print(a_b__timeit)
+
+
