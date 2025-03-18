@@ -95,18 +95,33 @@
 # server.quit()
 
 
-# 10.8. Dates and Times
-# dates are easily constructed and formatted
-from datetime import date
-now = date.today()
-print(now)
+# # 10.8. Dates and Times
+# # dates are easily constructed and formatted
+# from datetime import date
+# now = date.today()
+# print(now)
+#
+# strftime = now.strftime("%m-%d-%y. %d %b %Y is a %A on the %d day of %B.")
+# print(strftime)
+#
+# birthday = date(1964, 7, 31)
+# age = now - birthday
+# days = age.days
+# print(days)
 
-strftime = now.strftime("%m-%d-%y. %d %b %Y is a %A on the %d day of %B.")
-print(strftime)
 
-birthday = date(1964, 7, 31)
-age = now - birthday
-days = age.days
-print(days)
+# 10.9. Data Compression
+import zlib
+s = b'witch which has which witches wrist watch'
+len_s = len(s)
+print(len_s)
 
+t = zlib.compress(s)
+len_t = len(t)
+print(len_t)
 
+decompress= zlib.decompress(t)
+print(decompress)
+
+crc32 = zlib.crc32(s)
+print(crc32)
