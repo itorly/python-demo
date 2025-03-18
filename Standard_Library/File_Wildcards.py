@@ -127,13 +127,38 @@
 # print(crc32)
 
 
-# 10.10. Performance Measurement
-from timeit import Timer
+# # 10.10. Performance Measurement
+# from timeit import Timer
+#
+# b__timeit = Timer('t=a; a=b; b=t', 'a=1; b=2').timeit()
+# print(b__timeit)
+#
+# a_b__timeit = Timer('a,b = b,a', 'a=1; b=2').timeit()
+# print(a_b__timeit)
 
-b__timeit = Timer('t=a; a=b; b=t', 'a=1; b=2').timeit()
-print(b__timeit)
 
-a_b__timeit = Timer('a,b = b,a', 'a=1; b=2').timeit()
-print(a_b__timeit)
+# 10.11. Quality Control
+def average(values):
+    """Computes the arithmetic mean of a list of numbers.
 
+    >>> print(average([20, 30, 70]))
+    40.0
+    """
+    return sum(values) / len(values)
 
+import doctest
+doctest.testmod()   # automatically validate the embedded tests
+
+import unittest
+
+class TestStatisticalFunctions(unittest.TestCase):
+
+    def test_average(self):
+        self.assertEqual(average([20, 30, 70]), 40.0)
+        self.assertEqual(round(average([1, 5, 7]), 1), 4.3)
+        with self.assertRaises(ZeroDivisionError):
+            average([])
+        with self.assertRaises(TypeError):
+            average(20, 30, 70)
+
+unittest.main()  # Calling from the command line invokes all tests
