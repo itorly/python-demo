@@ -7,3 +7,8 @@ print(sum)
 a_ = a[1:3]
 print(a_)
 
+
+from collections import deque
+d = deque(["task1", "task2", "task3"])
+d.append("task4")
+print("Handling", d.popleft())
